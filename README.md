@@ -18,7 +18,8 @@ Model yang dihasilkan dapat digunakan untuk tugas klasifikasi gambar yang spesif
    * Evaluation Matrix Model
      * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/confusion.png?raw=true)
      * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/report.png?raw=true)
-
+### Predict Data
+* ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/predict.png?raw=true)
 
 ## Untuk membuat virtual environment di Python, Anda dapat mengikuti langkah-langkah berikut:
 Download Semua folder pada github ini
