@@ -4,7 +4,9 @@ Project ini adalah penerapan Machine Learning model - Image Classification denga
 # Overview Dataset
 Project ini menggunakan dataset berupa citra berjumlah 2520, jumlah kelas 3, kelas ['paper' 'rock' 'scissors'].
 ## Model
-Menggunakan Keras untuk memuat pre-trained model VGG16 tanpa lapisan fully connected dan kemudian membekukan lapisan-lapisan konvolusional awal dengan mengatur layer.trainable = False. Ini bertujuan agar parameter-parameter tersebut tidak di-update selama proses pelatihan model yang akan datang. Selanjutnya, sebuah model transfer learning dibangun dengan menambahkan beberapa lapisan kustom di atas base model. Lapisan-lapisan ini melibatkan operasi seperti flattening, dense layer dengan 256 neuron dan fungsi aktivasi ReLU, dropout layer dengan tingkat dropout 0.5, dan dense layer terakhir dengan fungsi aktivasi softmax sesuai dengan jumlah kelas yang diinginkan. Model yang dihasilkan dapat digunakan untuk tugas klasifikasi gambar yang spesifik, memanfaatkan pengetahuan yang telah dipelajari oleh VGG16 pada dataset ImageNet tanpa mengubah parameter-parameter konvolusionalnya.
+Menggunakan Keras untuk memuat pre-trained model VGG16 tanpa lapisan fully connected dan kemudian membekukan lapisan-lapisan konvolusional awal dengan mengatur layer.trainable = False.
+sebuah model transfer learning dibangun dengan menambahkan beberapa lapisan kustom di atas base model. Lapisan-lapisan ini melibatkan operasi seperti flattening, dense layer dengan 256 neuron dan fungsi aktivasi ReLU, dropout layer dengan tingkat dropout 0.5, dan dense layer terakhir dengan fungsi aktivasi softmax sesuai dengan jumlah kelas yang diinginkan.
+Model yang dihasilkan dapat digunakan untuk tugas klasifikasi gambar yang spesifik, memanfaatkan pengetahuan yang telah dipelajari oleh VGG16 pada dataset ImageNet tanpa mengubah parameter-parameter konvolusionalnya.
 
 
 buka folder 'model', download filenya dan letakkan pada folder 'model'
