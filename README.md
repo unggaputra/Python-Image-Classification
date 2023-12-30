@@ -1,4 +1,4 @@
-# Web-Model-Deployment
+# Ujian Akhir Praktikum - Machine Learning
 buka folder 'model', download filenya dan letakkan pada folder 'model'
 
 # Untuk membuat virtual environment di Python atau Anaconda Python, Anda dapat mengikuti langkah-langkah berikut:
