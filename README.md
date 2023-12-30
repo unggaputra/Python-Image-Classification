@@ -3,6 +3,7 @@ Project ini adalah penerapan Machine Learning model - Image Classification denga
 
 # Overview Dataset
 Project ini menggunakan dataset berupa citra berjumlah 2520, jumlah kelas 3, kelas ['paper' 'rock' 'scissors'].
+https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/dataset.png?raw=true
 ## Model
 Menggunakan Keras untuk memuat pre-trained model VGG16 tanpa lapisan fully connected dan kemudian membekukan lapisan-lapisan konvolusional awal dengan mengatur layer.trainable = False.
 sebuah model transfer learning dibangun dengan menambahkan beberapa lapisan kustom di atas base model. Lapisan-lapisan ini melibatkan operasi seperti flattening, dense layer dengan 256 neuron dan fungsi aktivasi ReLU, dropout layer dengan tingkat dropout 0.5, dan dense layer terakhir dengan fungsi aktivasi softmax sesuai dengan jumlah kelas yang diinginkan.
