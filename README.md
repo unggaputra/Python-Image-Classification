@@ -12,12 +12,12 @@ Project ini menggunakan dataset berupa citra berjumlah 2520, jumlah kelas 3, kel
 sebuah model transfer learning dibangun dengan menambahkan beberapa lapisan kustom di atas base model. Lapisan-lapisan ini melibatkan operasi seperti flattening, dense layer dengan 256 neuron dan fungsi aktivasi ReLU, dropout layer dengan tingkat dropout 0.5, dan dense layer terakhir dengan fungsi aktivasi softmax sesuai dengan jumlah kelas yang diinginkan.
 Model yang dihasilkan dapat digunakan untuk tugas klasifikasi gambar yang spesifik, memanfaatkan pengetahuan yang telah dipelajari oleh VGG16 pada dataset ImageNet tanpa mengubah parameter-parameter konvolusionalnya.
    * Summary Model
-   * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/summary.png?raw=true)
+     * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/summary.png?raw=true)
    * Graph Loss dan Accuracy Model
-   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/history.png?raw=true)
+     * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/history.png?raw=true)
    * Evaluation Matrix Model
-   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/confusion.png?raw=true)
-   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/report.png?raw=true)
+     * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/confusion.png?raw=true)
+     * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/report.png?raw=true)
 
 
 
