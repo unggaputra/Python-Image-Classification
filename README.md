@@ -5,7 +5,8 @@ Project ini adalah penerapan Machine Learning model - Image Classification denga
 Project ini menggunakan dataset berupa citra berjumlah 2520, jumlah kelas 3, kelas ['paper' 'rock' 'scissors'].
 ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/dataset.png?raw=true)
 
-
+### Preprocessing dan Modelling
+ Markup : * Preprocessing
 
 ## Model
 Menggunakan Keras untuk memuat pre-trained model VGG16 tanpa lapisan fully connected dan kemudian membekukan lapisan-lapisan konvolusional awal dengan mengatur layer.trainable = False.
