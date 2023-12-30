@@ -19,8 +19,11 @@ Model yang dihasilkan dapat digunakan untuk tugas klasifikasi gambar yang spesif
      * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/confusion.png?raw=true)
      * ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/report.png?raw=true)
 ### Predict Data
-* ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/predict.png?raw=true)
+![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/predict.png?raw=true)
 
+### Local Development
+![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/index.png?raw=true)
+![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/result.png?raw=true)
 ## Untuk membuat virtual environment di Python, Anda dapat mengikuti langkah-langkah berikut:
 Download Semua folder pada github ini
 buka folder 'model', salin link dalam file txt kemudian download filenya dan letakkan pada folder 'model'
