@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction Result:</h2>
+    <p>The predicted class is: <strong>{{ predicted_label }}</strong></p>
+    <p>Accuracy: <strong>{{ accuracy }}</strong></p>
+    <p>Prediction Time: <strong>{{ prediction_time }} seconds</strong></p>
+    <img src="data:image/jpeg;base64,{{ encoded_image }}" alt="Predicted Image" style="max-width: 400px;">
+    <p><strong>Input Image:</strong></p>
+    <img src="data:image/jpeg;base64,{{ encoded_input_image }}" alt="Input Image" style="max-width: 400px;">
+    <p><a href="/">Go back to input form</a></p>
+</body>
+</html>

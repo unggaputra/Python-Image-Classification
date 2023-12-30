@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Predictor</title>
+    <style>
+	title {
+            color: black;
+        }
+        body {
+            background-image: url('https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/dataset.png?raw=true'); /* Ganti dengan URL atau path gambar latar belakang yang diinginkan */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rock Paper Scissors Predictor</h1>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+        <label for="file">Upload Image:</label>
+        <input type="file" name="file" accept=".png, .jpg, .jpeg, .gif" required>
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+
+
+
