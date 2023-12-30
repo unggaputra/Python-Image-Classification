@@ -6,7 +6,15 @@ Project ini menggunakan dataset berupa citra berjumlah 2520, jumlah kelas 3, kel
 ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/dataset.png?raw=true)
 
 ### Preprocessing dan Modelling
- Markup : * Preprocessing
+ * Preprocessing : ImageDataGenerator(rescale=1./255, rotation_range=30, width_shift_range=0.2, shear_range=0.2, zoom_range=0.2, horizontal_flip=True, fill_mode='nearest', validation_split=0.2)
+ * Model :
+   * Summary Model
+   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/summary.png?raw=true)
+   * Graph Loss dan Accuracy Model
+   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/history.png?raw=true)
+   * Evaluation Matrix Model
+   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/confusion.png?raw=true)
+   ![alt text](https://github.com/unggaputra/Web-Model-Deployment/blob/main/Asset/report.png?raw=true)
 
 ## Model
 Menggunakan Keras untuk memuat pre-trained model VGG16 tanpa lapisan fully connected dan kemudian membekukan lapisan-lapisan konvolusional awal dengan mengatur layer.trainable = False.
